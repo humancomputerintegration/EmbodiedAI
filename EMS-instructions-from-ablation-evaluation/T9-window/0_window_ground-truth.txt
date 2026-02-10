@@ -1,0 +1,9 @@
+right,shoulder,flexion,90
+right,index,flexion,30
+right,middle,flexion,30
+right,ring,flexion,30
+right,pinky,flexion,30
+right,thumb,flexion,20
+right,wrist,supination (rotation),60
+right,shoulder,adbuction,180
+right,elbow,flexion,30

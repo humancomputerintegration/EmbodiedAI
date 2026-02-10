@@ -1,0 +1,10 @@
+left,wrist,supination (rotation),90
+left,elbow,flexion,90
+left,grip,flexion,100
+left,wrist,supination (rotation),90
+right,index,flexion,80
+right,middle,flexion,80
+right,ring,flexion,80
+right,pinky,flexion,80
+right,thumb,flexion,70
+left,shoulder,extension,20

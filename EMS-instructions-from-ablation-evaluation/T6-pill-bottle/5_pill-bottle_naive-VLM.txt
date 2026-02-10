@@ -1,0 +1,8 @@
+right,wrist,supination,60
+right,wrist,supination,60
+left,wrist,pronation,60
+left,wrist,pronation,60
+right,fingers,flexion,30
+right,fingers,flexion,30
+left,fingers,flexion,30
+left,fingers,flexion,30

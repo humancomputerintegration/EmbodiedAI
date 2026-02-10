@@ -1,0 +1,26 @@
+right,knee,flexion,30
+left,knee,flexion,30
+right,shoulder,flexion,30
+right,elbow,flexion,45
+right,wrist,flexion,20
+right,grip,flexion,10
+left,shoulder,adduction,10
+left,elbow,flexion,10
+right,wrist,extension,15
+right,thumb,flexion,5
+right,index,flexion,5
+right,middle,flexion,5
+right,wrist,flexion,25
+right,elbow,flexion,20
+right,thumb,flexion,10
+right,index,flexion,10
+right,middle,flexion,10
+right,ring,flexion,8
+right,pinky,flexion,8
+right,grip,flexion,10
+right,wrist,supination (rotation),15
+right,knee,extension,10
+left,knee,extension,10
+right,elbow,flexion,30
+right,wrist,flexion,20
+right,grip,flexion,10

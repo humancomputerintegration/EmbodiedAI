@@ -1,0 +1,6 @@
+right,elbow,flexion,90
+right,shoulder,adduction,37
+right,wrist,supination (rotation),53
+left,elbow,extension,90
+left,shoulder,abduction,37
+left,wrist,pronation (rotation),53

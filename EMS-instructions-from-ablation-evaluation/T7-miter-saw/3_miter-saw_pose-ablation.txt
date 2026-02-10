@@ -1,0 +1,7 @@
+left,elbow,flexion,90
+left,wrist,pronation (rotation),30
+left,grip,flexion,20
+right,shoulder,flexion,60
+right,elbow,flexion,100
+right,wrist,pronation (rotation),45
+right,grip,flexion,20

@@ -1,0 +1,20 @@
+left,shoulder,flexion,60
+left,elbow,flexion,50
+left,grip,flexion,10
+left,shoulder,adduction,37
+left,wrist,supination (rotation),53
+right,shoulder,flexion,60
+right,elbow,extension,30
+right,index,extension,20
+right,middle,extension,20
+right,ring,extension,20
+right,pinky,extension,20
+right,grip,flexion,15
+left,elbow,flexion,70
+left,wrist,flexion,45
+left,shoulder,abduction,37
+left,wrist,pronation (rotation),53
+left,elbow,flexion,70
+left,wrist,flexion,45
+right,wrist,flexion,20
+right,grip,flexion,10

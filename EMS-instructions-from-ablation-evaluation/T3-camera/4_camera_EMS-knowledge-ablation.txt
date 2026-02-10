@@ -1,0 +1,9 @@
+right,index,flexion,30
+right,wrist,flexion,15
+right,thumb,flexion,10
+right,thumb,extension,30
+right,wrist,supination (rotation),30
+right,wrist,extension,15
+right,index,flexion,30
+right,wrist,flexion,15
+right,thumb,flexion,10

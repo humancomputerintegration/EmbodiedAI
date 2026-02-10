@@ -1,0 +1,15 @@
+left,shoulder,flexion,45
+left,elbow,flexion,25
+left,thumb,flexion,20
+left,index,flexion,15
+left,middle,flexion,15
+left,ring,flexion,15
+left,pinky,flexion,15
+right,wrist,pronation (rotation),20
+right,thumb,extension,15
+right,index,flexion,15
+right,middle,flexion,15
+right,ring,flexion,15
+right,pinky,flexion,15
+left,ankle,eversion,15
+right,ankle,eversion,5

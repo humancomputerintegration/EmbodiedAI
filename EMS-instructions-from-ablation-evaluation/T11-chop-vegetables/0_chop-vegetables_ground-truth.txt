@@ -1,0 +1,16 @@
+right,shoulder,flexion,10
+right,index,flexion,30
+right,middle,flexion,30
+right,ring,flexion,30
+right,pinky,flexion,30
+right,thumb,flexion,20
+left,elbow,extension,10
+left,shoulder,flexion,10
+left,index,flexion,30
+left,middle,flexion,30
+left,ring,flexion,30
+left,pinky,flexion,30
+left,thumb,flexion,20
+left,shoulder,adduction,20
+left,wrist,adduction,10
+left,wrist,abduction,10

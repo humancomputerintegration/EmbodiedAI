@@ -1,0 +1,5 @@
+right,elbow,flexion,45
+right,wrist,pronation (rotation),15
+right,thumb,flexion,10
+right,index,flexion,10
+right,middle,flexion,10

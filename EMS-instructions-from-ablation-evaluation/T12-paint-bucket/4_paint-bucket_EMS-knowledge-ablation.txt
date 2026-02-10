@@ -1,0 +1,13 @@
+right,wrist,flexion,45
+right,thumb,flexion,45
+right,index,flexion,45
+right,middle,flexion,45
+right,ring,flexion,45
+right,pinky,flexion,45
+right,wrist,extension,20
+right,elbow,flexion,20
+left,wrist,extension,10
+left,shoulder,adduction,15
+right,wrist,supination (rotation),45
+right,wrist,flexion,20
+right,elbow,flexion,20

@@ -1,0 +1,4 @@
+right,knee,extension,45
+right,ankle,eversion,12
+left,knee,extension,45
+left,ankle,eversion,12

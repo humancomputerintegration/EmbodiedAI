@@ -1,0 +1,9 @@
+right,wrist,flexion,10
+right,index,flexion,30
+right,middle,flexion,30
+right,ring,flexion,30
+right,pinky,flexion,30
+right,thumb,flexion,20
+right,shoulder,adduction,100
+right,wrist,abduction (twist),30
+right,shoulder,abduction,20

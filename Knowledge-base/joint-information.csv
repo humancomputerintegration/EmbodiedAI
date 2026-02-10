@@ -1,0 +1,48 @@
+﻿joint,movement,direction,range_max,parent joint,parent movement,parent direction
+wrist,flexion,upward,60,elbow,flexion,upward
+wrist,extension,downward,60,elbow,flexion,downward
+wrist,flexion,downward,60,shoulder,extension,downward
+wrist,extension,upward,60,shoulder,flexion,upward
+wrist,flexion,inward,60,shoulder,rotation,inward
+wrist,extension,outward,60,shoulder,rotation,outward
+wrist,supination (rotation),inward,80,shoulder,adduction,inward
+wrist,pronation (rotation),outward,80,shoulder,abduction,outward
+,,,,,,
+elbow,flexion,upward,140,shoulder,flexion,upward
+elbow,extension,downward,-140,shoulder,extension,downward
+elbow,flexion,inward,140,shoulder,adduction,inward
+elbow,extension,outward,-140,shoulder,abduction,outward
+elbow,extension,forward,-140,shoulder,adduction,inward
+elbow,flexion,backward,140,shoulder,abduction,outward
+elbow,flexion,downward,140,shoulder,extension,downward
+elbow,extension,downward,-140,shoulder,adduction,inward
+elbow,flexion,upward,140,shoulder,abduction,outward
+elbow,extension,inward,-140,shoulder,adduction,inward
+elbow,flexion,outward,140,shoulder,abduction,outward
+,,,,,,
+shoulder,flexion,upward,180,,,
+shoulder,extension,downward,50,,,
+shoulder,abduction,outward,180,,,
+shoulder,adduction,inward,50,,,
+shoulder,rotation,inward,90,,,
+shoulder,rotation,outward,90,,,
+,,,,,,
+grip,flexion,upward,90,,,
+grip,flexion,inward,90,,,
+grip,flexion,downward,90,,,
+grip,flexion,forwad,90,,,
+release,extension,upward,90,,,
+release,extension,outward,90,,,
+release,extension,downward,90,,,
+release,extension,backward,90,,,
+,,,,,,
+push,flexion,forward,0,elbow,extension,forward
+pull,extension,backward,0,elbow,flexion,backward
+push,flexion,upward,0,elbow,extension,upward
+pull,extension,downward,0,elbow,flexion,downward
+push,flexion,downward,0,elbow,extension,downward
+pull,extension,upward,0,elbow,flexion,upward
+push,flexion,inward,0,elbow,extension,inward
+pull,extension,outward,0,elbow,flexion,outward
+,,,,,,
+"(For grip and release, parent joint movement does not match child joint movement functionality.)",,,,,,

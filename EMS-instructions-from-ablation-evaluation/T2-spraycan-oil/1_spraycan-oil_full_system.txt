@@ -1,0 +1,5 @@
+left,shoulder,abduction,37
+left,wrist,pronation (rotation),53
+left,index,flexion,20
+left,shoulder,adduction,87
+left,wrist,abduction (twist),13

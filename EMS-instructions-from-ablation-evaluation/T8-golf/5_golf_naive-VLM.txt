@@ -1,0 +1,8 @@
+right,wrist,pronation,15
+right,wrist,pronation,15
+left,wrist,supination,15
+left,wrist,supination,15
+right,grip,0
+right,grip,0
+left,grip,0
+left,grip,0

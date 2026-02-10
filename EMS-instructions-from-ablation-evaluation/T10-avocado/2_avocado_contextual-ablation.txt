@@ -1,0 +1,7 @@
+left,shoulder,extension,50
+left,wrist,flexion,40
+left,shoulder,adduction,37
+left,wrist,supination (rotation),53
+left,elbow,flexion,30
+left,elbow,extension,70
+left,wrist,flexion,30

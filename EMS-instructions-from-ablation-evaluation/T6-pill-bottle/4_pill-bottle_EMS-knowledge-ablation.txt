@@ -1,0 +1,6 @@
+right,wrist,flexion,15
+right,wrist,pronation (rotation),90
+right,push,flexion,10
+right,wrist,pronation (rotation),90
+right,wrist,pronation (rotation),90
+left,grip,flexion,10

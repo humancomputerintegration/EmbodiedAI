@@ -1,0 +1,4 @@
+right,ankle,eversion,30
+right,ankle,eversion,30
+right,knee,flexion,20
+right,knee,flexion,20

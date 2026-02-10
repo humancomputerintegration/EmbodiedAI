@@ -1,0 +1,5 @@
+left,grip,flexion,10
+right,grip,flexion,10
+right,ankle,eversion,12
+right,knee,flexion,30
+right,ankle,flexion,25

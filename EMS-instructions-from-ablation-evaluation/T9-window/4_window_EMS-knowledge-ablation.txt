@@ -1,0 +1,5 @@
+right,shoulder,flexion,45
+right,shoulder,abduction,15
+right,elbow,flexion,90
+right,grip,flexion,60
+right,wrist,supination (rotation),180

@@ -1,0 +1,4 @@
+right,wrist,extension,20
+right,wrist,flexion,20
+right,index,flexion,5
+

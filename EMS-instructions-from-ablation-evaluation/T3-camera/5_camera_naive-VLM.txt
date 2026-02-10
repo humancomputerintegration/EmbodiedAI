@@ -1,0 +1,10 @@
+right,thumb,flexion,30
+right,thumb,flexion,30
+right,index,flexion,10
+right,index,flexion,10
+right,ring,flexion,10
+right,ring,flexion,10
+right,middle,flexion,15
+right,middle,flexion,15
+right,wrist,neutral,0
+right,wrist,neutral,0

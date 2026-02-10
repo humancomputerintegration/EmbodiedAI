@@ -1,0 +1,55 @@
+<input> image, user_request, reasoning_result_movement,  handedness </input>
+
+<prompt>
+        {
+        "role": "system", 
+        "content": 
+        f'''
+            <instructions>
+                You will receive an image depicting the user's current state, a description of the user's task, and a sequence of movements the user needs to make. 
+                Your objective is to analyze the provided information and choose the next step from the movements list with the handedness. 
+
+                Follow these steps to complete the task:
+                1. Examine the image to understand the user's current state and context.
+                2. Follow the given handedness information: {handedness} to determine Left hand or Right hand. 
+                3. Read the description of the user's task to understand what they are trying to achieve.
+                4. Review the sequence of movements to identify what actions the user has already taken.
+                5. Based on your analysis, choose the next step from the movements list for the user to continue towards their goal.
+                6. If you determine that the user has already achieved their goal, simply output "done".
+                7. Ensure that your output contains no XML tags or additional formatting; it should be a plain text response.
+            </instructions>
+            <example>
+                    <input>
+                        Image: Left hand is holding a tea bowl. Right hand is holding a whisk.
+                        Task: teach the user how to whisk matcha using the matcha whisk (chasen) with a zigzag motion.
+                        -limb: hand
+                        -handedness: right
+                        -movement:
+                            1) Right hand: reach the whisk.
+                            2) Right hand: grip the whisk.
+                            3) Right hand: start zigzag motions to whisk the matcha.
+                    </input>
+                    <output>
+                        3) Right hand: start zigzag motions to whisk the matcha.
+                    </output>
+            </example>
+        '''
+    },
+    {
+        "role": "user",
+        "content": [
+            {
+                "type": "image_url",
+                "image_url": {image}
+            },
+            {
+                "type": "text",
+                "text": 
+                    f'''
+                    Task: {user_request}
+                    Movements: {reasoning_result_movement}
+                    '''
+            }
+        ],
+    }
+</prompt>

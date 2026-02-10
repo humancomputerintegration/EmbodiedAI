@@ -1,0 +1,2 @@
+right,ankle,eversion,18
+right,ankle,flexion,25

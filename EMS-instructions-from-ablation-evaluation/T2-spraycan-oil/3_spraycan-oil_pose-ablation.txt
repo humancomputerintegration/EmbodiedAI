@@ -1,0 +1,7 @@
+left,wrist,pronation (rotation),20
+left,wrist,supination (rotation),20
+left,elbow,flexion,90
+left,shoulder,flexion,45
+left,index,flexion,20
+left,middle,flexion,20
+left,thumb,flexion,15

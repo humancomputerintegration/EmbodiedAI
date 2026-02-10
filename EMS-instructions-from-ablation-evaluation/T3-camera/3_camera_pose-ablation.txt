@@ -1,0 +1,3 @@
+right,index,flexion,5
+right,thumb,flexion,15
+right,index,flexion,5

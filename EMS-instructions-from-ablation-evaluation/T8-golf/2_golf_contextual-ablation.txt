@@ -1,0 +1,8 @@
+left,wrist,pronation (rotation),10
+left,wrist,flexion,5
+right,wrist,supination (rotation),10
+right,wrist,flexion,5
+left,index,adduction,5
+right,pinky,adduction,5
+left,thumb,adduction,5
+right,thumb,adduction,5

@@ -1,0 +1,4 @@
+right,grip,flexion,45
+right,grip,flexion,45
+right,wrist,supination (rotation),90
+right,wrist,supination (rotation),90

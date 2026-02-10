@@ -1,0 +1,11 @@
+right,shoulder,abduction,127
+right,wrist,pronation (rotation),53
+right,thumb,flexion,20
+right,index,flexion,20
+right,middle,flexion,20
+right,ring,flexion,20
+right,pinky,flexion,20
+right,shoulder,abduction,127
+right,wrist,pronation (rotation),53
+right,shoulder,abduction,37
+right,wrist,pronation (rotation),53

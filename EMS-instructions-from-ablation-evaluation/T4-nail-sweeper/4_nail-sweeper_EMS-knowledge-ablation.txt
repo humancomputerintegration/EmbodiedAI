@@ -1,0 +1,11 @@
+right,shoulder,flexion,15
+right,shoulder,flexion,20
+right,shoulder,abduction,20
+right,shoulder,lateral (rotation),15
+right,shoulder,abduction,20
+right,pull,extension,30
+right,grip,flexion,30
+right,wrist,flexion,30
+right,index,flexion,30
+right,thumb,flexion,30
+right,middle,flexion,30

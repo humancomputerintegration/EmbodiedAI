@@ -1,0 +1,6 @@
+right,wrist,flexion,30
+right,wrist,extension,15
+right,elbow,flexion,10
+right,wrist,extension,15
+right,elbow,flexion,10
+left,wrist,flexion,10

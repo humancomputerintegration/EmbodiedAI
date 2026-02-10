@@ -1,0 +1,38 @@
+right,thumb,flexion,30
+right,thumb,flexion,30
+right,index,flexion,30
+right,index,flexion,30
+right,middle,flexion,30
+right,middle,flexion,30
+right,ring,flexion,30
+right,ring,flexion,30
+right,pinky,flexion,20
+right,pinky,flexion,20
+right,wrist,pronation (rotation),30
+right,wrist,pronation (rotation),90
+left,thumb,flexion,30
+left,thumb,flexion,30
+left,index,flexion,30
+left,index,flexion,30
+left,middle,flexion,30
+left,middle,flexion,30
+left,ring,flexion,30
+left,ring,flexion,30
+left,pinky,flexion,20
+left,pinky,flexion,20
+left,wrist,supination (rotation),90
+left,wrist,supination (rotation),90
+right,elbow,flexion,90
+right,elbow,flexion,90
+right,shoulder,flexion,45
+right,shoulder,flexion,45
+right,wrist,flexion,30
+right,wrist,flexion,30
+right,wrist,extension,30
+right,wrist,extension,30
+right,shoulder,medial (rotation),15
+right,shoulder,medial (rotation),15
+right,elbow,extension,20
+right,elbow,extension,20
+right,wrist,flexion,15
+right,wrist,flexion,15

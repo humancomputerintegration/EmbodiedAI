@@ -1,0 +1,7 @@
+right,shoulder,flexion,90
+right,shoulder,abduction,20
+right,shoulder,abduction,35
+right,index,extension,40
+right,middle,extension,40
+right,ring,extension,40
+right,pinky,extension,40

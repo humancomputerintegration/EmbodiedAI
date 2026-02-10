@@ -1,0 +1,9 @@
+right,shoulder,adduction,30
+right,shoulder,extension,10
+right,shoulder,flexion,10
+right,shoulder,abduction,60
+right,index,flexion,50
+right,middle,flexion,50
+right,ring,flexion,50
+right,pinky,flexion,50
+

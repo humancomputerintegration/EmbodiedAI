@@ -1,0 +1,12 @@
+right,wrist,supination,45
+right,wrist,supination,45
+left,wrist,pronation,45
+left,wrist,pronation,45
+right,elbow,flexion,90
+right,elbow,flexion,90
+left,elbow,flexion,90
+left,elbow,flexion,90
+right,grip,flexion,30
+right,grip,flexion,30
+left,grip,flexion,30
+left,grip,flexion,30

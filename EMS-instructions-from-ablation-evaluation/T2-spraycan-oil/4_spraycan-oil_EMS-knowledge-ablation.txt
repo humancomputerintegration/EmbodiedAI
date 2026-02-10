@@ -1,0 +1,5 @@
+left,wrist,supination (rotation),90
+left,shoulder,flexion,30
+left,elbow,flexion,30
+left,index,flexion,30
+left,wrist,abduction (twist),20

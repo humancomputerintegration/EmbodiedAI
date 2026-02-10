@@ -1,0 +1,6 @@
+right,wrist,supination (rotation),70
+right,wrist,extension,20
+right,shoulder,flexion,15
+right,shoulder,extension,15
+left,wrist,pronation (rotation),80
+left,shoulder,flexion,30

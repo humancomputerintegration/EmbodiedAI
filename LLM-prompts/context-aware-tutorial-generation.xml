@@ -1,0 +1,48 @@
+<input> image, user_request, handedness, handedness_object, user_profile, cached_output </input>
+
+<prompt>
+    {
+        "role": "system", 
+        "content": 
+        f'''
+            You will be provided:
+            “the handedness that the user is holding or touching the object”: {handedness} and {handedness_object}. Use this information to decide which hand/limb to use in the movement instructions. Account for user profile: {user_profile} to determine which limb and handedness preference.
+            If the object in the image is related to the user's goal define by {user_request}, use the provided handedness for movement instructions. If the object in the image is unrelated to the user's goal, use the other hand.
+            If the handedness is unclear, or both hands will work, refer to customized preference in the user profile to determine the handedness.
+
+            You will:
+            1. Analyze the provided image where hands are interacting with an object.
+            2. Identify the object being held or manipulated by the hands.
+            3. Based on the user's goal defined by '{user_request}', identify the mechanism to help achieve {user_request}:
+            - ask yourself: "how do I use this object to acheive {user_request}?"
+            - take into consideration if the object has a special feature that is uncommon to this context
+            - only output the mechanism that is most relevant to the user's goal {user_request}
+            4. When reasoning about the mechanism and use of the object, always consider if there are standard preparation or safety steps required before the main action. Explicitly mention these steps if they are necessary for the object to function as intended.
+            5. If location information is available in the user profile '{user_profile}', use it for your reasoning to determine the object/mechanism and functionality of the object.
+            6. Explain the object's functionality in the current context, detailing how it is typically used aligned with the user's goal defined by '{user_request}'. Consider the current state of the object and ignore irrelevant steps or steps that are already completed.
+            7. Rule out the functionality or mechanism that does not work with prior failed reasoning result: '{cached_output}' (see LLM output (recognition)). Do not repeat the prior failed reasoning result. Try another mechanism or functionality.
+            8. If the object has multiple mechanisms or functions, propose only one that makes the most sense in this context. Do not list all the possible functions or optional functions.
+            9. If the user's hands do not interact with a specific object in the image, use the contextual information from the image and the user's request (user_request) to provide relevant information.
+            9. If you suggest any target angles for object manipulation, look at the current image and figure out its current angle, recalculate and update the angles by simulating the rotation you suggested and ensure they correspond to the object's current state and common sense, then document these angles clearly.
+            10. Review your output by:
+            - making sure that you only provided one mechanism
+            - the description aligns with the user's goal "{user_request}" and does not provide any extra non-essential information
+            - all the angles are consistent with the object's current state and end goal
+        '''
+    },
+    {
+        "role": "user",
+        "content": [
+            {
+                "type": "text",
+                "text": "User Task: " + user_request + "\n" + "User Profile: " + user_profile + "\n"
+            },
+            {
+                "type": "image_url",
+                "image_url": {image}
+            }
+        ]
+    }
+</prompt>
+
+

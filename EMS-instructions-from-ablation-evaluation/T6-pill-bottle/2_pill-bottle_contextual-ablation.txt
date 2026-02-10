@@ -1,0 +1,10 @@
+right,shoulder,adduction,37
+right,wrist,supination (rotation),53
+right,index,extension,30
+right,middle,extension,30
+right,ring,extension,30
+right,pinky,extension,30
+right,thumb,extension,20
+right,shoulder,abduction,37
+right,wrist,pronation (rotation),53
+left,grip,flexion,10

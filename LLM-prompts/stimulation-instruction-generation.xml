@@ -1,0 +1,100 @@
+<input> reasoning_result_movement, joint_list, limb_directions </input>
+
+<prompt>
+    {
+        "role": "system", 
+        "content": 
+        f'''
+            You will be provided:
+                - "a movement for operating an object or achieving a goal": {reasoning_result_movement}'
+                - "a joint_list (the movements of the joints, and the direction that the joints can turn relative to the neutral pose)”: {joint_list}
+                - "current body position described by where the limbs are pointing. Note that the wrist is referring to the thumb to point": {limb_directions}
+                
+                <instructions>
+                    You are tasked with translating a list of movement instructions into specific joint movements using a provided joint list. 
+                    Follow these steps to complete the task:
+                    1. Carefully read the provided movement instructions, which include details about the limb, handedness, and specific actions to be performed.        
+                    2. For each movement, use the joint_list: {joint_list} to describe the the movement in the following format: <handedness. i.e., left, right>[the joint that needs move. e.g., wrist, elbow, shoulder, heel.][the movement of that joint. e.g., extension, flexion, abduction.][the direction of that movement relative to the neutral pose][how many degrees the joint needs to move in that direction you described. Ranging from 0-360. e.g., 180, 90, 45.] Ensure that each movement is directly linked to the action it corresponds to. 
+                    3. Consider the current body position described by {limb_directions} to determine which body part should move in which direction.
+                    4. Be as efficient and succinct as possible. If a movement instruction can be achived with one muscle movement, use one movement, instead of multiple joint movements.
+                    5. Ensure you only use the [joint][movement][direction] pairs in the joint_list.
+                    6. Structure your output for each movement in the following format: <handedness>[joint][movement][direction][angle]. Make sure to include all have parameters. If more than one joint movement is required, use the following format: <handedness>[joint][movement][direction][angle] \n <handedness>[joint][movement][direction][angle]. 
+                    7. Ensure that your output does not contain any XML tags but keep the "<left>" or "<right>" tag to indicate the handedness of the movement and should not be modified.
+                    8. Provide a clear separation between different limbs and movements in your output for better readability.
+                    9. Review your output to ensure that you only choose the joint movement pairs ([joint][movement][direction]) from the joint_list. Also ensure accuracy and completeness before finalizing it.
+                    10. If you cannot determine the movement or mapping, output <skip>.
+                    11. Before outputting, review your instructions to ensure:
+                    - this exact instruction format is respected, including brackets, with exactly 5 elements: <handedness>[joint][movement][direction][angle]
+                </instructions> 
+
+                <example>
+                    <input>
+                        -limb: hand
+                        -handedness: right
+                        -movement:
+                            1) Right hand: reach the whisk.
+                            2) Right hand: grip the whisk.
+                            3) Right hand: start zigzag motions to whisk the matcha.
+                    </input>
+                    <output>
+                        1) Right hand: reach the whisk.  
+                        <right>[shoulder][flexion][upward][90]
+                        <right>[elbow][flexion][inward][90]
+                        2) Right hand: grip the whisk.  
+                        <right>[index][flexion][inward][5]
+                        <right>[middle][flexion][inward][5]
+                        <right>[thumb][flexion][inward][5]
+                        3) Right hand: start zigzag motion to whisk the matcha. 
+                        <right>[wrist][extension][upward][10]
+                        <right>[wrist][flexion][downward][10]
+                    </output>
+                </example>
+
+                <example>
+                    <input>
+                    limb: foot
+                    handedness: left
+                    movement:
+                        1) Left foot: twist your ankle to move your left foot onto the pedal of the bike pump.
+                    limb: arm
+                    handedness: left and right
+                    movement:
+                        2-1) Left arm: pull the the handle up.
+                        2-2) Right arm: pull the handle up.
+                    limb: arm
+                    handedness: left and right
+                    movement:
+                        3-1) Left arm: push the the handle down.
+                        3-2) Right arm: push the handle down.
+                    </input>
+                    <output>
+                        1) Left foot: twist your ankle to move your left foot onto the pedal of the bike pump. 
+                            <left>[ankle][inversion][inward][10]
+                        2-1) Left arm: pull the the handle up.
+                        2-2) Right arm: pull the handle up.
+                        <left>[elbow][flexion][upward][50]
+                        <right>[elbow][flexion][upward][50]
+                        3-1) Left arm: push the the handle down.
+                        3-2) Right arm: push the handle down.
+                        <left>[elbow][extension][downward][50]
+                        <right>[elbow][extension][downward][50]
+                    </output>
+                </example>
+
+        '''
+    },
+    {
+        "role": "user",
+        "content": [
+            {  
+            "type": "text",
+            "text": 
+            f'''
+            Describe the movement in the following format: <handedness. i.e., left, right>[the joint that needs move. e.g., wrist, elbow, shoulder, heel.][the movement of that joint. e.g., extension, flexion, abduction.][the direction of that movement relative to the neutral pose][how many degrees the joint needs to move in that direction you described. Ranging from 0-360. e.g., 180, 90, 45.] to achieve the following movements {reasoning_result_movement}. 
+            If it's a bimanual or bipedal task, then output movement description for each hand or each foot.
+
+            '''
+            },
+        ],
+    }
+</prompt>

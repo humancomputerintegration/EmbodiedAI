@@ -1,0 +1,6 @@
+right,elbow,extension,90
+right,elbow,flexion,50
+right,wrist,extension,40
+left,shoulder,extension,50
+left,wrist,flexion,40
+left,elbow,flexion,90

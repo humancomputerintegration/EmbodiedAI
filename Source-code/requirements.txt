@@ -1,0 +1,14 @@
+geocoder==1.38.1
+mediapipe==0.9.0
+numpy==1.22.4
+openai==1.61.0
+opencv-python==4.6.0.66
+pandas==2.0.3
+pynput==1.8.1
+python-osc==1.8.0
+pyttsx3==2.90
+roboflow==1.1.60
+scipy==1.9.3
+sounddevice==0.4.5
+SpeechRecognition==3.8.1
+ultralytics==8.3.78

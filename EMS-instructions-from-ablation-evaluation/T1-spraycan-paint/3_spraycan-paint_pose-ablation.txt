@@ -1,0 +1,6 @@
+right,wrist,flexion,20
+right,shoulder,flexion,45
+right,elbow,flexion,30
+right,index,flexion,20
+right,shoulder,abduction,15
+right,shoulder,adduction,15

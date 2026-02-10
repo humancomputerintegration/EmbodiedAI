@@ -1,0 +1,13 @@
+right,elbow,flexion,90
+right,elbow,flexion,77
+right,wrist,abduction (twist),13
+right,index,flexion,15
+right,middle,flexion,15
+right,ring,flexion,15
+right,pinky,flexion,15
+right,thumb,flexion,30
+right,shoulder,flexion,74
+right,elbow,flexion,93
+right,wrist,abduction (twist),13
+right,shoulder,extension,30
+right,elbow,flexion,10

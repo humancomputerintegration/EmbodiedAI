@@ -1,0 +1,18 @@
+left,shoulder,flexion,60
+left,shoulder,adduction,30
+left,shoulder,medial (rotation),45
+left,wrist,pronation (rotation),90
+left,thumb,flexion,45
+left,index,flexion,45
+left,middle,flexion,45
+left,ring,flexion,45
+left,pinky,flexion,45
+left,grip,flexion,30
+right,shoulder,adduction,20
+right,wrist,flexion,20
+right,thumb,flexion,45
+right,index,flexion,45
+right,middle,flexion,45
+right,ring,flexion,45
+right,pinky,flexion,45
+right,grip,flexion,30

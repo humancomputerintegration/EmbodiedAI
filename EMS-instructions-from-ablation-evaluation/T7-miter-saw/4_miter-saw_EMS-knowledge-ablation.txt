@@ -1,0 +1,6 @@
+right,shoulder,flexion,45
+right,elbow,flexion,90
+right,wrist,pronation (rotation),90
+right,wrist,pronation (rotation),90
+right,grip,flexion,90
+right,index,flexion,45

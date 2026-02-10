@@ -1,0 +1,17 @@
+left,elbow,flexion,90
+left,wrist,pronation,90
+left,elbow,extension,45
+right,shoulder,adduction,90
+right,index,flexion,30
+right,middle,flexion,30
+right,ring,flexion,30
+right,pinky,flexion,30
+right,thumb,flexion,20
+right,index,flexion,15
+right,shoulder,extension,120
+right,shoulder,flexion,120
+right,index,extension,30
+right,middle,extension,30
+right,ring,extension,30
+right,pinky,extension,30
+right,thumb,extension,20

@@ -1,0 +1,132 @@
+joint-list,,,biomechanical-knowledge,,,,EMS parameters (per-participant pre-calibrated),,,,,,
+joint,movement,direction,range_max,parent joint,parent movement,parent direction,channel-left,channel-right,pulse_width,intensity-left,intensity-right,pulse_count,delay
+wrist,flexion,upward,60,elbow,flexion,upward,1,2,250,8,8,20,0.001
+wrist,extension,downward,60,elbow,flexion,downward,3,4,250,8,8,20,0.001
+wrist,flexion,downward,60,shoulder,extension,downward,1,2,250,8,8,20,0.001
+wrist,extension,upward,60,shoulder,flexion,upward,3,4,250,8,8,20,0.001
+wrist,flexion,inward,60,shoulder,rotation,inward,1,2,250,8,8,20,0.001
+wrist,extension,outward,60,shoulder,rotation,outward,3,4,250,8,8,20,0.001
+,,,,,,,,,,,,,
+wrist,supination (rotation),inward,80,shoulder,adduction,inward,5,6,300,12,12,20,0.001
+wrist,pronation (rotation),outward,80,shoulder,abduction,outward,7,8,300,12,12,20,0.001
+,,,,,,,,,,,,,
+wrist,adduction (twist),outward,20,shoulder,adduction,inward,9,10,250,9,9,40,0.001
+wrist,abduction (twist),inward,20,elbow,flexion,inward,11,12,250,9,9,40,0.001
+wrist,adduction (twist),inward,20,elbow,flexion,inward,9,10,250,9,9,40,0.001
+wrist,abduction (twist),outward,20,shoulder,adduction,inward,11,12,250,9,9,40,0.001
+wrist,adduction (twist),downward,20,elbow,extension,downard,9,10,250,9,9,40,0.001
+wrist,abduction (twist),upward,20,elbow,flexion,upward,11,12,250,9,9,40,0.001
+,,,,,,,,,,,,,
+elbow,flexion,upward,140,shoulder,flexion,upward,13,14,300,16,16,40,0.001
+elbow,extension,downward,-140,shoulder,extension,downward,15,16,300,16,16,40,0.001
+elbow,flexion,inward,140,shoulder,adduction,inward,13,14,300,16,16,40,0.001
+elbow,extension,outward,-140,shoulder,abduction,outward,15,16,300,16,16,40,0.001
+elbow,extension,forward,-140,shoulder,adduction,inward,15,16,300,16,16,40,0.001
+elbow,flexion,backward,140,shoulder,abduction,outward,13,14,300,16,16,40,0.001
+elbow,flexion,downward,140,shoulder,extension,downward,13,14,300,16,16,40,0.001
+elbow,extension,downward,-140,shoulder,adduction,inward,15,16,300,16,16,40,0.001
+elbow,flexion,upward,140,shoulder,abduction,outward,13,14,300,16,16,40,0.001
+elbow,extension,inward,-140,shoulder,adduction,inward,15,16,300,16,16,40,0.001
+elbow,flexion,outward,140,shoulder,abduction,outward,13,14,300,16,16,40,0.001
+,,,,,,,,,,,,,
+shoulder,flexion,upward,180,,,,17,18,350,24,24,50,0.001
+shoulder,extension,downward,50,,,,19,20,350,24,24,50,0.001
+shoulder,abduction,outward,180,,,,21,22,350,24,24,50,0.001
+shoulder,adduction,inward,130,,,,23,24,350,24,24,50,0.001
+shoulder, medial (rotation),inward,90,,,,25,26,350,23,23,50,0.001
+shoulder, lateral (rotation),outward,90,,,,27,28,350,23,23,50,0.001
+,,,,,,,,,,,,,
+thumb,flexion,inward,50,wrist,flexion,,29,30,250,8,8,20,0.001
+thumb,extension,outward,-50,wrist,extension,,31,32,250,8,8,20,0.001
+thumb,abduction,outward,65,wrist,flexion,,33,34,250,8,8,20,0.001
+thumb,adduction,inward,30,wrist,extension,,35,36,250,8,8,20,0.001
+,,,,,,,,,,,,,
+index,flexion,upward,90,wrist,flexion,upward,37,38,250,7,7,20,0.001
+index,extension,downward,40,wrist,extension,downward,39,40,250,7,7,20,0.001
+index,abduction,outward,20,wrist,abduction (twist),outward,41,42,250,7,7,20,0.001
+index,adduction,inward,-20,wrist,adduction (twist),inward,43,44,250,7,7,20,0.001
+index,flexion,inward,90,wrist,flexion,inward,37,38,250,7,7,20,0.001
+index,extension,outward,40,wrist,extension,outward,39,40,250,7,7,20,0.001
+index,abduction,upward,20,wrist,abduction (twist),upward,41,42,250,7,7,20,0.001
+index,adduction,downward,-20,wrist,adduction (twist),downward,43,44,250,7,7,20,0.001
+index,flexion,downward,90,wrist,flexion,downward,37,38,250,7,7,20,0.001
+index,extension,upward,40,wrist,extension,upward,39,40,250,7,7,20,0.001
+index,abduction,inward,20,wrist,abduction (twist),inward,41,42,250,7,7,20,0.001
+index,adduction,outward,-20,wrist,adduction (twist),outward,43,44,250,7,7,20,0.001
+,,,,,,,,,,,,,
+middle,flexion,upward,90,wrist,flexion,upward,45,46,250,6,6,20,0.001
+middle,extension,downward,40,wrist,extension,downward,47,48,250,6,6,20,0.001
+middle,abduction,outward,20,wrist,abduction (twist),outward,49,50,250,6,6,20,0.001
+middle,adduction,inward,-20,wrist,adduction (twist),inward,51,52,250,6,6,20,0.001
+middle,flexion,inward,90,wrist,flexion,inward,45,46,250,6,6,20,0.001
+middle,extension,outward,40,wrist,extension,outward,47,48,250,6,6,20,0.001
+middle,abduction,upward,20,wrist,abduction (twist),upward,49,50,250,6,6,20,0.001
+middle,adduction,downward,-20,wrist,adduction (twist),downward,51,52,250,6,6,20,0.001
+middle,flexion,downward,90,wrist,flexion,downward,45,46,250,6,6,20,0.001
+middle,extension,upward,40,wrist,extension,upward,47,48,250,6,6,20,0.001
+middle,abduction,inward,20,wrist,abduction (twist),inward,49,50,250,6,6,20,0.001
+middle,adduction,outward,-20,wrist,adduction (twist),outward,51,52,250,6,6,20,0.001
+,,,,,,,,,,,,,
+ring,flexion,upward,90,wrist,flexion,upward,53,54,250,7,7,20,0.001
+ring,extension,downward,40,wrist,extension,downward,55,56,250,7,7,20,0.001
+ring,abduction,outward,20,wrist,abduction (twist),outward,57,58,250,7,7,20,0.001
+ring,adduction,inward,-20,wrist,adduction (twist),inward,59,60,250,7,7,20,0.001
+ring,flexion,inward,90,wrist,flexion,inward,53,54,250,7,7,20,0.001
+ring,extension,outward,40,wrist,extension,outward,55,56,250,7,7,20,0.001
+ring,abduction,upward,20,wrist,abduction (twist),upward,57,58,250,7,7,20,0.001
+ring,adduction,downward,-20,wrist,adduction (twist),downward,59,60,250,7,7,20,0.001
+ring,flexion,downward,90,wrist,flexion,downward,53,54,250,7,7,20,0.001
+ring,extension,upward,40,wrist,extension,upward,55,56,250,7,7,20,0.001
+ring,abduction,inward,20,wrist,abduction (twist),inward,57,58,250,7,7,20,0.001
+ring,adduction,outward,-20,wrist,adduction (twist),outward,59,60,250,7,7,20,0.001
+,,,,,,,,,,,,,
+pinky,flexion,upward,90,wrist,flexion,upward,61,62,250,6,6,20,0.001
+pinky,extension,downward,40,wrist,extension,downward,63,64,250,6,6,20,0.001
+pinky,abduction,outward,20,wrist,abduction (twist),outward,65,66,250,6,6,20,0.001
+pinky,adduction,inward,-20,wrist,adduction (twist),inward,67,68,250,6,6,20,0.001
+pinky,flexion,inward,90,wrist,flexion,inward,61,62,250,6,6,20,0.001
+pinky,extension,outward,40,wrist,extension,outward,63,64,250,6,6,20,0.001
+pinky,abduction,upward,20,wrist,abduction (twist),upward,65,66,250,6,6,20,0.001
+pinky,adduction,downward,-20,wrist,adduction (twist),downward,67,68,250,6,6,20,0.001
+pinky,flexion,downward,90,wrist,flexion,downward,61,62,250,6,6,20,0.001
+pinky,extension,upward,40,wrist,extension,upward,63,64,250,6,6,20,0.001
+pinky,abduction,inward,20,wrist,abduction (twist),inward,65,66,250,6,6,20,0.001
+pinky,adduction,outward,-20,wrist,adduction (twist),outward,67,68,250,6,6,20,0.001
+,,,,,,,,,,,,,
+grip,flexion,upward,90,,,,69,70,250,10,10,40,0.001
+grip,flexion,inward,90,,,,69,70,250,10,10,40,0.001
+grip,flexion,downward,90,,,,69,70,250,10,10,40,0.001
+grip,flexion,forwad,90,,,,69,70,250,10,10,40,0.001
+release,extension,upward,90,,,,71,72,250,10,10,40,0.001
+release,extension,outward,90,,,,71,72,250,10,10,40,0.001
+release,extension,downward,90,,,,71,72,250,10,10,40,0.001
+release,extension,backward,90,,,,71,72,250,10,10,40,0.001
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+push,flexion,forward,0,elbow,extension,forward,,,,,,,
+pull,extension,backward,0,elbow,flexion,backward,,,,,,,
+push,flexion,upward,0,elbow,extension,upward,,,,,,,
+pull,extension,downward,0,elbow,flexion,downward,,,,,,,
+push,flexion,downward,0,elbow,extension,downward,,,,,,,
+pull,extension,upward,0,elbow,flexion,upward,,,,,,,
+push,flexion,inward,0,elbow,extension,inward,,,,,,,
+pull,extension,outward,0,elbow,flexion,outward,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+knee,flexion,downward,150,,,,73,74,300,24,24,60,0.001
+knee,extension,upward,150,,,,75,76,300,24,24,60,0.001
+,,,,,,,,,,,,,
+ankle,supination,outward,60,,,,77,78,300,14,14,40,0.001
+ankle,pronation,inward,30,,,,79,80,300,14,14,40,0.001
+ankle,flexion,upward,25,knee,extension,upward,81,82,300,14,14,40,0.001
+ankle,extension,downward,45,knee,flexion,downward,83,84,300,14,14,40,0.001
+ankle,eversion,outward,18,,,,85,86,300,14,14,40,0.001
+ankle,inversion,inward,30,,,,87,88,300,14,14,40,0.001
+,,,,,,,,,,,,,
+neck,flexion,downward,50,,,,,,,,,,
+neck,extension,upward,70,,,,,,,,,,
+neck,rotation,clockwise,70,,,,,,,,,,
+neck,rotation,counterclockwise,70,,,,,,,,,,
+neck,lateral,left,40,,,,,,,,,,
+,,,,,,,,,,,,,
+neck,lateral,right,40,,,,,,,,,,
