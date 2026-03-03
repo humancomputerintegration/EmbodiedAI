@@ -1,6 +1,7 @@
 import subprocess
 from pynput import keyboard
 import cv2
+import os
 
 class CaptureCamera:
     def __init__(self, cameratype):
@@ -47,6 +48,9 @@ class CaptureCamera:
             else:
                 raise Exception("Failed to capture frame from webcam")
 
+        out_dir = os.path.dirname(f"user_inputs/{timestamp}_img.jpg")
+        if out_dir:
+            os.makedirs(out_dir, exist_ok=True)
         out_path = f"user_inputs/{timestamp}_img.jpg"
         img = cv2.imwrite(out_path, frame)
         if not img:
@@ -80,6 +84,9 @@ class CaptureCamera:
                 frame = frame2
             tries += 1
 
+        out_dir = os.path.dirname(output_path)
+        if out_dir:
+            os.makedirs(out_dir, exist_ok=True)
         ok = cv2.imwrite(output_path, frame)
         if not ok:
             raise Exception(f"Failed to write image to {output_path}")
@@ -90,6 +97,9 @@ class CaptureCamera:
 
     def capture_rayban(self):
         outfile = 'user_inputs/rayban_stream.jpg'
+        out_dir = os.path.dirname(outfile)
+        if out_dir:
+            os.makedirs(out_dir, exist_ok=True)
         try:
             subprocess.run(['screencapture', '-R450,64,600,966', f'{outfile}'])
         except subprocess.CalledProcessError as e:
